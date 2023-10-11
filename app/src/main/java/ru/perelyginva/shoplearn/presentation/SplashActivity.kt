@@ -1,9 +1,10 @@
-package ru.perelyginva.shoplearn
+package ru.perelyginva.shoplearn.presentation
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import ru.perelyginva.shoplearn.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
