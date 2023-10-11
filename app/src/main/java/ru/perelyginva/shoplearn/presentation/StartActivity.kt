@@ -12,6 +12,7 @@ class StartActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        _binding = ActivityStartBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.goUserLoginBtn.setOnClickListener {
